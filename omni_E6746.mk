@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/micromax/E7746
+DEVICE_PATH := device/micromax/E6746
 
 # Release name
-PRODUCT_RELEASE_NAME := E7746
+PRODUCT_RELEASE_NAME := E6746
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -29,10 +29,10 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(DEVICE_PATH)/recovery/ro
     $(DEVICE_PATH)/prebuilt/dtb:dtb.img
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := E7746
-PRODUCT_NAME := omni_E7746
+PRODUCT_DEVICE := E6746
+PRODUCT_NAME := omni_E6746
 PRODUCT_BRAND := Micromax
-PRODUCT_MODEL := IN Note 1
+PRODUCT_MODEL := IN 1
 PRODUCT_MANUFACTURER := Micromax
 
 # HACK: Set vendor patch level
